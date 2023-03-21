@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.locateUser__info{
+    background-image: url('https://img.freepik.com/free-photo/stormy-night-sky-countryside-social-banner_53876-160173.jpg?w=1380&t=st=1677314883~exp=1677315483~hmac=f12b0d5c5a6072ee564dc5e625fb2e53eee48df115b244d7a3b7a8a64ab58199');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.9s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.Application__details{
+    max-width: 500px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 40px;
+    border: solid;
+    border-radius: 5px;
+}
+.locateUser__info__clickOperation img{
+    cursor: pointer;
+    width: 30px;
+}
+
+.locateUser__info__clickOperation{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    border: solid;
+    top: 100%;
+    left: 60%;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
